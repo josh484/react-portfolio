@@ -1,26 +1,37 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import { NavLink } from 'react-router-dom';
+import '../styles/header.css'
 function Header() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id='main'>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <NavLink
+                            style={({ isActive }) => {
+                                return isActive ? { color: 'red' } : {}
+                            }}
+                            to="/"
+                        ><a class="nav-link">Home </a>
+                        </NavLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <NavLink
+                            style={({ isActive }) => {
+                                return isActive ? { color: 'red' } : {}
+                            }}
+                            to="/contact"
+                        ><a class="nav-link">Contact </a>
+                        </NavLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                    <NavLink
+                            style={({ isActive }) => {
+                                return isActive ? { color: 'red' } : {}
+                            }}
+                            to="/projectgallery"
+                        ><a class="nav-link">ProjectGallery</a>
+                        </NavLink>
                     </li>
                 </ul>
             </div>
