@@ -1,7 +1,9 @@
-
+.carousel{
+    height: 100vh;
+}
 
 .carousel-inner{
-    height: 50%;
+    height: 100%;
     display: flex;
 }
 
