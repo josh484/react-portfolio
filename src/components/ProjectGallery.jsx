@@ -22,7 +22,7 @@ function ProjectGallery() {
                         />
                         <Carousel.Caption>
                             <h3>{projects.name}</h3>
-                            <p>{projects.content}</p>
+                            <p>{projects.description}</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 ))}

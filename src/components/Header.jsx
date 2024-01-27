@@ -8,29 +8,32 @@ function Header() {
                 <ul className="navbar-nav">
                     <li className="nav-item active">
                         <NavLink
+                            className="nav-link"
                             style={({ isActive }) => {
                                 return isActive ? { color: 'red' } : {}
                             }}
                             to="/"
-                        ><p className="nav-link">Home </p>
+                        >Home 
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink
+                            className="nav-link"
                             style={({ isActive }) => {
                                 return isActive ? { color: 'red' } : {}
                             }}
                             to="/contact"
-                        ><p className="nav-link">Contact </p>
+                        >Contact
                         </NavLink>
                     </li>
                     <li className="nav-item">
                     <NavLink
+                            className="nav-link"
                             style={({ isActive }) => {
                                 return isActive ? { color: 'red' } : {}
                             }}
                             to="/projectgallery"
-                        ><p className="nav-link">ProjectGallery</p>
+                        >ProjectGallery
                         </NavLink>
                     </li>
                 </ul>

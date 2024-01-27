@@ -5,7 +5,7 @@ function Project(prop) {
 
     return (
         <>
-            <Carousel.Item>
+            <Carousel.Item key={prop.id}>
             <img src={prop.image} text={prop.name} />
                 <Carousel.Caption>
                     <h3>Third slide label</h3>
