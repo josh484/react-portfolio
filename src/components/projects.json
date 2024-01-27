@@ -2,37 +2,37 @@
     {
         "id": 1,
         "name": "Project 1",
-        "image": "something",
+        "image": "https://placehold.co/600x400",
         "description": "something happened"
     },
     {
         "id": 2,
         "name": "Project 2",
-        "image": "something",
+        "image": "https://placehold.co/600x400",
         "description": "something happened"
     },
     {
         "id": 3,
         "name": "Project 3",
-        "image": "something",
+        "image": "https://placehold.co/600x400",
         "description": "something happened"
     },
     {
         "id": 4,
         "name": "Project 4",
-        "image": "something",
+        "image": "https://placehold.co/600x400",
         "description": "something happened"
     },
     {
         "id": 5,
         "name": "Project 5",
-        "image": "something",
+        "image": "https://placehold.co/600x400",
         "description": "something happened"
     },
     {
         "id": 6,
         "name": "Project 6",
-        "image": "something",
+        "image": "https://placehold.co/600x400",
         "description": "something happened"
     }
 ]
