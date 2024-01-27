@@ -3,34 +3,34 @@ import { NavLink } from 'react-router-dom';
 import '../styles/header.css'
 function Header() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id='main'>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light" id='main'>
+            <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul className="navbar-nav">
+                    <li className="nav-item active">
                         <NavLink
                             style={({ isActive }) => {
                                 return isActive ? { color: 'red' } : {}
                             }}
                             to="/"
-                        ><a class="nav-link">Home </a>
+                        ><p className="nav-link">Home </p>
                         </NavLink>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                         <NavLink
                             style={({ isActive }) => {
                                 return isActive ? { color: 'red' } : {}
                             }}
                             to="/contact"
-                        ><a class="nav-link">Contact </a>
+                        ><p className="nav-link">Contact </p>
                         </NavLink>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                     <NavLink
                             style={({ isActive }) => {
                                 return isActive ? { color: 'red' } : {}
                             }}
                             to="/projectgallery"
-                        ><a class="nav-link">ProjectGallery</a>
+                        ><p className="nav-link">ProjectGallery</p>
                         </NavLink>
                     </li>
                 </ul>

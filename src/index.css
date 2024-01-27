@@ -1,7 +1,6 @@
-:root {
-
+body > #root > div {
+  height: 100vh;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  width: 100%;
 }
