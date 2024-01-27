@@ -1,6 +1,10 @@
 
 
-#carousel{
-    border-top: 200px;
+.carousel-inner{
+    height: 800px;
+    display: flex;
+}
 
+.projectImage{
+   width: 100%;
 }

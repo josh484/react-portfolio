@@ -5,38 +5,31 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function ProjectGallery() {
     const [projects, setProjects] = useState(Data);
-    return (
-        <div id ='carousel'>
-            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                <ol className="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div className="carousel-inner">
-                    {projects.map((projects) => (
-                        <Project
-                            id={projects.id}
-                            key={projects.id}
-                            name={projects.name}
-                            image={projects.image}
-                            description={projects.description}
-                        />
-                    ))}
-                </div>
-                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
+    const [index, setIndex] = useState(0);
 
-        
+    const handleSelect = (selectedIndex) => {
+        setIndex(selectedIndex);
+    };
+
+    return (
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+                {projects.map(projects => (
+                    <Carousel.Item key={projects.id}>
+                        <img
+                            className="projectImage"
+                            src={projects.image}
+                            alt={projects.name}
+                        />
+                        <Carousel.Caption>
+                            <h3>{projects.name}</h3>
+                            <p>{projects.content}</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                ))}
+        </Carousel>
     )
+
+
 }
 
 

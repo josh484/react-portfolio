@@ -1,33 +1,20 @@
 import React from 'react';
-
+import Carousel from 'react-bootstrap/Carousel';
 
 function Project(prop) {
-    if (prop.id == 1){
-        return (
-            <>
-            <div className="carousel-item active">
-                <img src={prop.image} alt="..."/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>{prop.name}</h5>
-                        <p>...</p>
-                    </div>
-            </div>
-        </>
-        )
-    }
-    else{
+
     return (
         <>
-            <div className="carousel-item">
-                <img src={prop.image} alt="..."/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>{prop.name}</h5>
-                        <p>...</p>
-                    </div>
-            </div>
-        </>
+            <Carousel.Item>
+            <img src={prop.image} text={prop.name} />
+                <Carousel.Caption>
+                    <h3>Third slide label</h3>
+                    <p>{prop.description}</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            </>
     )
-    }
+
 }
 
 export default Project

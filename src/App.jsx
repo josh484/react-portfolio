@@ -8,7 +8,7 @@ import Project from './components/Project'
 import ProjectGallery from './components/ProjectGallery'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>

@@ -1,6 +1,8 @@
-body > #root > div {
+html, body, #root {
   height: 100vh;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  margin: 0;
+  padding: 0;
+
+  background-color: black;
 }
+
