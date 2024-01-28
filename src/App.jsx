@@ -11,7 +11,7 @@ function App() {
 
 
   return (
-    <>
+
       <Router>
       <Header />
         <Routes>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
-    </>
+
   )
 }
 

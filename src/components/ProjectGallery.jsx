@@ -12,12 +12,13 @@ function ProjectGallery() {
     };
 
     return (
+        <div id='carousel'>
         <Carousel activeIndex={index} onSelect={handleSelect}>
                 {projects.map(projects => (
                     <Carousel.Item key={projects.id}>
                         <img
-                            className="projectImage"
-                            src={projects.image}
+                            className="projectImage d-block min-vh-100"
+                            src={projects.image} 
                             alt={projects.name}
                         />
                         <Carousel.Caption>
@@ -27,6 +28,7 @@ function ProjectGallery() {
                     </Carousel.Item>
                 ))}
         </Carousel>
+        </div>
     )
 
 
