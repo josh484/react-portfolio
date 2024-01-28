@@ -1,22 +1,23 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/header.css'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 function Header() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light" id='main'>
-            <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul className="navbar-nav">
-                    <li className="nav-item active">
+        <>
+            <Navbar bg="dark" data-bs-theme="dark" >
+                <Container id='navbar' className=' d-flex flex-row-reverse'>
+                    <Nav className="me-auto d-flex flex-row-reverse" id='navCon'>
                         <NavLink
                             className="nav-link"
                             style={({ isActive }) => {
                                 return isActive ? { color: 'red' } : {}
                             }}
                             to="/"
-                        >Home 
+                        >Home
                         </NavLink>
-                    </li>
-                    <li className="nav-item">
                         <NavLink
                             className="nav-link"
                             style={({ isActive }) => {
@@ -25,9 +26,7 @@ function Header() {
                             to="/contact"
                         >Contact
                         </NavLink>
-                    </li>
-                    <li className="nav-item">
-                    <NavLink
+                        <NavLink
                             className="nav-link"
                             style={({ isActive }) => {
                                 return isActive ? { color: 'red' } : {}
@@ -35,10 +34,10 @@ function Header() {
                             to="/projectgallery"
                         >ProjectGallery
                         </NavLink>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                    </Nav>
+                </Container>
+            </Navbar>
+        </>
     )
 }
 
