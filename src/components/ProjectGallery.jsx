@@ -13,7 +13,7 @@ function ProjectGallery() {
 
     return (
         <div id='carousel'>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel activeIndex={index} onSelect={handleSelect} data-bs-theme="dark">
                 {projects.map(projects => (
                     <Carousel.Item key={projects.id}>
                         <img
@@ -23,6 +23,7 @@ function ProjectGallery() {
                         />
                         <Carousel.Caption>
                             <h3>{projects.name}</h3>
+                            <p>{projects.link}</p>
                             <p>{projects.description}</p>
                         </Carousel.Caption>
                     </Carousel.Item>
