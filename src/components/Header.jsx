@@ -14,7 +14,7 @@ function Header() {
                         style={({ isActive }) => {
                             return isActive ? { color: '#bb86fc' } : {}
                         }}
-                        to="/"
+                        to="/react-portfolio/"
                     >Home
                     </NavLink>
                     <NavLink

@@ -18,7 +18,7 @@ function App() {
       <Router>
       <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/react-portfolio/" element={<Home />} />
           <Route path="/projectgallery" element={<ProjectGallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
