@@ -9,5 +9,6 @@ html, body, #root {
 }
 
 h1{
-  font-size: 100px;
+  font-size: 6.0vw;
+  text-align: center;
 }
