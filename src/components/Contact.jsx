@@ -41,7 +41,7 @@ function Contact() {
                             <Form.Label>Example textarea</Form.Label>
                             <Form.Control as="textarea" rows={3} type='text' value={formData.description} onChange={handleInputChange} name='description' />
                         </Form.Group>
-                        <Button variant="primary" type="submit">
+                        <Button variant="primary" type="submit" className='buttonC'>
                             Submit
                         </Button>
                     </Form>

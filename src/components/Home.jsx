@@ -15,7 +15,7 @@ function Home() {
                         <h1>Hi,</h1>
                         <h1>I'm Joshua <span id='mendozaC'>Mendoza</span></h1>
                         <h2>A Front-End Web Developer</h2>
-                        <Button variant="primary" id='buttonC'>
+                        <Button variant="primary" className='buttonC'>
                             My CV
                         </Button>
                         <div>
