@@ -11,7 +11,7 @@ function Home() {
         <Container fluid id='frontGrid'>
             <Row id='frontRow'>
                 <Col xs={12} lg={8} id='leftMe'>
-                    <div id='aboutMe' className='col-lg-10 col-sm-8'>
+                    <div id='aboutMe' className='col-lg-10 col-8'>
                         <h1>Hi,</h1>
                         <h1>I'm Joshua <span id='mendozaC'>Mendoza</span></h1>
                         <h2>A Front-End Web Developer</h2>
@@ -22,15 +22,15 @@ function Home() {
                             zz
                         </div>
                     </div>
-                    <div id='skills' className='col-lg-10 col-sm-8'>
+                    <div id='skills' className='col-lg-10 col-8'>
                         <h4>My Skills</h4>
-                        <ListGroup key={'md'} horizontal={'md'} className="my-2">
-                            <ListGroup.Item>HTML5</ListGroup.Item>
-                            <ListGroup.Item>CSS3</ListGroup.Item>
-                            <ListGroup.Item>JavaScript</ListGroup.Item>
-                            <ListGroup.Item>JQuery</ListGroup.Item>
-                            <ListGroup.Item>APIs</ListGroup.Item>
-                            <ListGroup.Item>React</ListGroup.Item>
+                        <ListGroup key={'xs'} horizontal={'lg'} className="col-10" id='listSkills'>
+                            <ListGroup.Item className='col-12 col-lg-2'>HTML5</ListGroup.Item>
+                            <ListGroup.Item className='col-12 col-lg-2'>CSS3</ListGroup.Item>
+                            <ListGroup.Item className='col-12 col-lg-2'>JavaScript</ListGroup.Item>
+                            <ListGroup.Item className='col-12 col-lg-2'>JQuery</ListGroup.Item>
+                            <ListGroup.Item className='col-12 col-lg-2'>APIs</ListGroup.Item>
+                            <ListGroup.Item  className='col-12 col-lg-2'>React</ListGroup.Item>
                         </ListGroup>
                     </div>
                 </Col>
