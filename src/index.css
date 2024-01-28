@@ -1,0 +1,14 @@
+html, body, #root {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  background-color: #121212;
+  color: white;
+  font-family: "Poppins";
+}
+
+h1{
+  font-size: 5.0vw;
+  text-align: center;
+}
