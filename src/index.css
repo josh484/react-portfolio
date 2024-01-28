@@ -5,6 +5,9 @@ html, body, #root {
 
   background-color: #121212;
   color: white;
-
+  font-family: "Poppins";
 }
 
+h1{
+  font-size: 100px;
+}

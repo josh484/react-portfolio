@@ -9,7 +9,10 @@ function Home() {
             <Container id='frontGrid'>
                 <Row id='frontRow'>
                     <Col xs={12} lg={6} id='aboutMe'>
-                    About Me
+                        <h1>About Me</h1>
+                        <div>
+                            as
+                        </div>
                     </Col>
                     <Col xs={12} lg={6} id='rightMe'>
                         <div className="jumboPicture text-center">
