@@ -8,8 +8,8 @@ function Header() {
     return (
         <>
             <Navbar bg="dark" data-bs-theme="dark" >
-                <Container id='navbar' className=' d-flex flex-row-reverse'>
-                    <Nav className="me-auto d-flex flex-row-reverse" id='navCon'>
+                <Container id='navbar' className=' d-flex justify-content-end'>
+                    <Nav className="" id='navCon'>
                         <NavLink
                             className="nav-link"
                             style={({ isActive }) => {
