@@ -20,7 +20,6 @@ function Contact() {
       };
 
     const handleFormSubmit = (event) => {
-        event.preventDefault();
         
         alert(`Hello ${formData.name}, You're email has been sent`);
         setFormData({
@@ -32,10 +31,10 @@ function Contact() {
 
 
     return (
-        <Form>
+        <Form action='https://getform.io/f/473a6617-2be3-4c30-959e-0184c9b15914' method='POST'>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="input" placeholder="name@example.com"onChange={handleInputChange} value={formData.name} name='name' required/>
+                <Form.Label>Name</Form.Label>
+                <Form.Control type="text" placeholder="name@example.com"onChange={handleInputChange} value={formData.name} name='name' required/>
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Label>Email address</Form.Label>
@@ -43,9 +42,9 @@ function Contact() {
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Example textarea</Form.Label>
-                <Form.Control as="textarea" rows={3} type='input' value={formData.description} onChange={handleInputChange} name='description'/>
+                <Form.Control as="textarea" rows={3} type='text' value={formData.description} onChange={handleInputChange} name='description'/>
             </Form.Group>
-            <Button variant="primary" type="submit" onClick={handleFormSubmit}>
+            <Button variant="primary" type="submit">
                 Submit
             </Button>
         </Form>

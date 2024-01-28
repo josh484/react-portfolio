@@ -7,12 +7,12 @@ import me from '../assets/images/me.jpeg'
 
 function Home() {
     return (
-        <Container id='frontGrid'>
+        <Container fluid id='frontGrid'>
             <Row id='frontRow'>
                 <Col xs={12} lg={6} id='leftMe'>
                     <div id='aboutMe'>
                         <h1>Hi,</h1>
-                        <h1>I'm Joshua Mendoza</h1>
+                        <h1>I'm Joshua <span id='mendozaC'>Mendoza</span></h1>
                         <h2>A Front-End Web Developer</h2>
                         <Button variant="primary" id='buttonC'>
                             My CV

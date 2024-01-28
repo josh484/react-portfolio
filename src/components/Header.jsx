@@ -11,7 +11,7 @@ function Header() {
                     <NavLink
                         className="nav-link"
                         style={({ isActive }) => {
-                            return isActive ? { color: 'red' } : {}
+                            return isActive ? { color: '#bb86fc' } : {}
                         }}
                         to="/"
                     >Home
@@ -19,7 +19,7 @@ function Header() {
                     <NavLink
                         className="nav-link"
                         style={({ isActive }) => {
-                            return isActive ? { color: 'red' } : {}
+                            return isActive ? { color: '#bb86fc' } : {}
                         }}
                         to="/projectgallery"
                     >ProjectGallery
@@ -27,7 +27,7 @@ function Header() {
                     <NavLink
                         className="nav-link"
                         style={({ isActive }) => {
-                            return isActive ? { color: 'red' } : {}
+                            return isActive ? { color: '#bb86fc' } : {}
                         }}
                         to="/contact"
                     >Contact
