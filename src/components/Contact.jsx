@@ -22,17 +22,6 @@ function Contact() {
         });
     };
 
-    const handleFormSubmit = (event) => {
-
-        alert(`Hello ${formData.name}, You're email has been sent`);
-        setFormData({
-            name: '',
-            email: '',
-            description: ''
-        });
-    }
-
-
     return (
         <>
         <Container id='contact'>

@@ -12,16 +12,22 @@
 
 
 .jumboPicture img{
-    width: 50%;
+    width: 80%;
     border-radius: 25px;
     border: 2px solid white;
     box-shadow: 5px 5px;
+}
+
+.jumboPicture{
+    margin-bottom: 10px;
 }
 
 #rightMe{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
 }
 
 #leftMe {
@@ -32,6 +38,20 @@
 }
 
 #aboutMe{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    border-radius: 25px;
+    border: 2px solid white;
+    box-shadow: 5px 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#skills{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
