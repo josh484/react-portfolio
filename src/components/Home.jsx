@@ -8,10 +8,10 @@ function Home() {
     return (
             <Container id='frontGrid'>
                 <Row id='frontRow'>
-                    <Col xs={12} lg={6}>
-
+                    <Col xs={12} lg={6} id='aboutMe'>
+                    About Me
                     </Col>
-                    <Col xs={12} lg={6}>
+                    <Col xs={12} lg={6} id='rightMe'>
                         <div className="jumboPicture text-center">
                             <img src={me} className="rounded-circle" alt="Picture Of Me"/>
                         </div>
