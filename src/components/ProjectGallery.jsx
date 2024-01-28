@@ -16,11 +16,14 @@ function ProjectGallery() {
         <Carousel activeIndex={index} onSelect={handleSelect} data-bs-theme="dark">
                 {projects.map(projects => (
                     <Carousel.Item key={projects.id}>
+                        <a href={projects.website}>
                         <img
                             className="projectImage d-block min-vh-100"
                             src={projects.image} 
                             alt={projects.name}
+                            
                         />
+                        </a>
                         <Carousel.Caption>
                             <h3>{projects.name}</h3>
                             <p>{projects.link}</p>

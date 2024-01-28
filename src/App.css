@@ -76,6 +76,7 @@
     --bs-btn-hover-border-color:#3700B3 !important;
     --bs-btn-active-border-color: #3700B3 !important;
     --bs-btn-active-bg: #3700B3 !important;
+    margin-bottom: 10px;
 }
 #mendozaC{
     color:#bb86fc

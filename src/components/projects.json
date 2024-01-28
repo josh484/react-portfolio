@@ -2,44 +2,50 @@
 [
     {
         "id": 1,
-        "name": "Project 1",
+        "name": "Cybernet Detective",
         "image": "cybernet.gif",
-        "description": "something happened",
-        "link": "https://github.com/josh484/Cyber-security"
+        "description": "A Website using APIs that takes in an IP Address and gives various information about the IP to check if the IP is dangerous",
+        "link": "https://github.com/josh484/Cyber-security",
+        "website": "https://josh484.github.io/Cyber-security/index.html"
     },
     {
         "id": 2,
         "name": "Project 2",
         "image": "https://placehold.co/600x400",
         "description": "something happened",
-        "link": "https://github.com/josh484/Cyber-security"
+        "link": "https://github.com/josh484/Cyber-security",
+        "website": "https://github.com/josh484/Cyber-security"
     },
     {
         "id": 3,
         "name": "Project 3",
         "image": "https://placehold.co/600x400",
         "description": "something happened",
-        "link": "https://github.com/josh484/Cyber-security"
+        "link": "https://github.com/josh484/Cyber-security",
+        "website": "https://github.com/josh484/Cyber-security"
     },
     {
         "id": 4,
         "name": "Project 4",
         "image": "https://placehold.co/600x400",
         "description": "something happened",
-        "link": "https://github.com/josh484/Cyber-security"
+        "link": "https://github.com/josh484/Cyber-security",
+        "website": "https://github.com/josh484/Cyber-security"
     },
     {
         "id": 5,
         "name": "Project 5",
         "image": "https://placehold.co/600x400",
         "description": "something happened",
-        "link": "https://github.com/josh484/Cyber-security"
+        "link": "https://github.com/josh484/Cyber-security",
+        "website": "https://github.com/josh484/Cyber-security"
     },
     {
         "id": 6,
         "name": "Project 6",
         "image": "https://placehold.co/600x400",
         "description": "something happened",
-        "link": "https://github.com/josh484/Cyber-security"
+        "link": "https://github.com/josh484/Cyber-security",
+        "website": "https://github.com/josh484/Cyber-security"
     }
 ]
