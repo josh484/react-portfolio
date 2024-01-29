@@ -3,36 +3,43 @@
     {
         "id": 1,
         "skill": "HTML",
+        "description": "something",
         "image": "link here"
     },
     {
         "id": 2,
         "skill": "CSS",
+        "description": "something",
         "image": "link here"
     },
     {
         "id": 3,
         "skill": "JavaScript",
+        "description": "something",
         "image": "link here"
     },
     {
         "id": 4,
         "skill": "BootStrap",
+        "description": "something",
         "image": "link here"
     },
     {
         "id": 5,
         "skill": "JQuery",
+        "description": "something",
         "image": "link here"
     },
     {
         "id": 6,
         "skill": "Node.js",
+        "description": "something",
         "image": "link here"
     },
     {
         "id": 7,
         "skill": "React",
+        "description": "something",
         "image": "link here"
     }
 ]

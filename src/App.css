@@ -55,7 +55,8 @@
 #skills{
     display: flex;
     flex-flow: column wrap;
-
+    justify-content: center;
+    align-items: center;
     background-color: #1e1e1e;
     border-radius: 25px;
     border: 2px solid white;
@@ -67,8 +68,14 @@
     margin-bottom: 10px;
 }
 
+#skillsBox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 .skillItem{
-    margin: 5px
+    margin: 1px;
 }
 
 .buttonC{

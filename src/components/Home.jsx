@@ -28,24 +28,17 @@ function Home() {
                     </div>
                     <div id='skills' className='col-lg-10 col-8'>
                         <h4>My Skills</h4>
-                        <ListGroup key={'xs'} horizontal={'lg'} className="col-10" id='listSkills'>
-                            <ListGroup.Item className='col-12 col-lg-4 skillItem'>HTML5</ListGroup.Item>
-                            <ListGroup.Item className='col-12 col-lg-4 skillItem'>CSS3</ListGroup.Item>
-                            <ListGroup.Item className='col-12 col-lg-4 skillItem'>JavaScript</ListGroup.Item>
-                            <ListGroup.Item className='col-12 col-lg-4 skillItem'>JQuery</ListGroup.Item>
-                            <ListGroup.Item className='col-12 col-lg-4 skillItem'>Node.js</ListGroup.Item>
-                            <ListGroup.Item className='col-12 col-lg-4 skillItem'>React</ListGroup.Item>
-                        </ListGroup>
-                        {skills.map(skills => (
-                            <SkillCard 
-                            id={skills.id}
-                            key={skills.id}
-                            skill={skills.skill}
-                            />
-                                
+                        <div id='skillsBox'>
+                            {skills.map(skills => (
+                                <SkillCard 
+                                    id={skills.id}
+                                    key={skills.id}
+                                    skill={skills.skill}
+                                />
 
-                        ))}
+                            ))}
                         </div>
+                    </div>
                 </Col>
                 <Col xs={12} lg={4} id='rightMe'>
                     <div className="jumboPicture text-center">
