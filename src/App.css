@@ -102,6 +102,12 @@
     background-color:#bb86fc !important;
  }
 
+#cCaption{
+    background-color: rgba(3, 3, 3, 0.2);
+    color: white;
+
+}
+
  /* Header Page */
 
  #navbar{

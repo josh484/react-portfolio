@@ -24,7 +24,7 @@ function ProjectGallery() {
                             
                         />
                         </a>
-                        <Carousel.Caption>
+                        <Carousel.Caption id='cCaption'>
                             <h3>{projects.name}</h3>
                             <p>{projects.link}</p>
                             <p>{projects.description}</p>
