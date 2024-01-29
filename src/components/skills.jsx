@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 function Skills(prop) {
 
     return (
-    <Card className='col-lg-4 skillItem'>
+    <Card className='col-lg-2 col-4 skillItem'>
         <Card.Body>
             <Card.Title>{prop.skill}</Card.Title>
             <Card.Text>
