@@ -94,6 +94,15 @@
 
 .skillItem{
     margin: 5px;
+    border-radius: 25px !important;
+    border: 2px solid #bb86fc !important; 
+}
+
+.skillItem:hover{
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    box-shadow: 5px 5px #bb86fc;
 }
 
 .buttonC{
