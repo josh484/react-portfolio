@@ -26,8 +26,9 @@ function ProjectGallery() {
                         </a>
                         <Carousel.Caption id='cCaption'>
                             <h3>{projects.name}</h3>
-                            <p>{projects.link}</p>
+                            <a href={projects.link} style={{color: "#bb86fc"}}><h3>Link to Repository</h3></a>
                             <p>{projects.description}</p>
+                            <p>{projects.technique}</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 ))}

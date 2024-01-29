@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import me from '../assets/images/me.jpeg'
-
+import pdf from '../../public/CV.pdf'
 function Home() {
 
 
@@ -17,9 +17,11 @@ function Home() {
                             <h1>Hi,</h1>
                             <h1>I'm Joshua <span id='mendozaC'>Mendoza</span></h1>
                             <h2>A Front-End Web Developer</h2>
+                            <a href={pdf}>
                             <Button variant="primary" className='buttonC'>
                                 My CV
                             </Button>
+                            </a>
                             <div>
                                 zz
                             </div>

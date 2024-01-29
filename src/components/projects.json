@@ -6,31 +6,35 @@
         "image": "./images/cybernet.gif",
         "description": "A Website using APIs that takes in an IP Address and gives various information about the IP to check if the IP is dangerous",
         "link": "https://github.com/josh484/Cyber-security",
+        "technique": "HTML, CSS, JavaScript, BootStrap",
         "website": "https://josh484.github.io/Cyber-security/index.html"
     },
     {
         "id": 2,
-        "name": "Project 2",
-        "image": "https://placehold.co/600x400",
-        "description": "something happened",
-        "link": "https://github.com/josh484/Cyber-security",
-        "website": "https://github.com/josh484/Cyber-security"
+        "name": "README Generator",
+        "image": "./images/ReadmeGenerator.png",
+        "description": "A README File Generator using node.js",
+        "technique": "Node.js",
+        "link": "https://github.com/josh484/team-profile-generator",
+        "website": "https://youtu.be/H2M5taF34Kg?si=xs8OsNUpc48fieRp "
     },
     {
         "id": 3,
-        "name": "Project 3",
-        "image": "https://placehold.co/600x400",
-        "description": "something happened",
-        "link": "https://github.com/josh484/Cyber-security",
-        "website": "https://github.com/josh484/Cyber-security"
+        "name": "Weather Dashboard",
+        "image": "./images/WeatherDashboard.png",
+        "description": "A Website weather forecast for the next 5 days",
+        "technique": "HTML, CSS, JavaScript, BootStrap",
+        "link": "https://github.com/josh484/weather-dashboard",
+        "website": "https://josh484.github.io/weather-dashboard/"
     },
     {
         "id": 4,
-        "name": "Project 4",
-        "image": "https://placehold.co/600x400",
-        "description": "something happened",
-        "link": "https://github.com/josh484/Cyber-security",
-        "website": "https://github.com/josh484/Cyber-security"
+        "name": "Password Generator",
+        "image": "./images/PasswordGenerator.png",
+        "description": "A password generator mainly using JavaScript to create a password",
+        "technique": "HTML, CSS, JavaScript",
+        "link": "https://github.com/josh484/Improved-Password-Generator",
+        "website": "https://josh484.github.io/Password-Generator/"
     },
     {
         "id": 5,
@@ -42,10 +46,11 @@
     },
     {
         "id": 6,
-        "name": "Project 6",
-        "image": "https://placehold.co/600x400",
-        "description": "something happened",
-        "link": "https://github.com/josh484/Cyber-security",
-        "website": "https://github.com/josh484/Cyber-security"
+        "name": "Original Portfolio",
+        "image": "./images/OriginalPortfolio.png",
+        "description": "My original portfolio website to compare my journey",
+        "technique": "HTML, CSS,BootStrap",
+        "link": "https://github.com/josh484/Bootstrap-Portfolio",
+        "website": "https://josh484.github.io/Bootstrap-Portfolio/"
     }
 ]
