@@ -38,11 +38,12 @@
     },
     {
         "id": 5,
-        "name": "Project 5",
-        "image": "https://placehold.co/600x400",
-        "description": "something happened",
-        "link": "https://github.com/josh484/Cyber-security",
-        "website": "https://github.com/josh484/Cyber-security"
+        "name": "Work Day Scheduler",
+        "image": "./images/WorkDay.png",
+        "description": "A work day scheduler that is colour coded based on past present and future",
+        "technique": "HTML, CSS, JavaScript",
+        "link": "https://github.com/josh484/work-day-scheduler",
+        "website": "https://josh484.github.io/work-day-scheduler/"
     },
     {
         "id": 6,
