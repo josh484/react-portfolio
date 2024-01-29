@@ -22,7 +22,7 @@ function Header() {
                         style={({ isActive }) => {
                             return isActive ? { color: '#bb86fc' } : {}
                         }}
-                        to="/projectgallery"
+                        to="/react-portfolio/projectgallery"
                     >ProjectGallery
                     </NavLink>
                     <NavLink
@@ -30,7 +30,7 @@ function Header() {
                         style={({ isActive }) => {
                             return isActive ? { color: '#bb86fc' } : {}
                         }}
-                        to="/contact"
+                        to="/react-portfolio/contact"
                     >Contact
                     </NavLink>
                 </Nav>
