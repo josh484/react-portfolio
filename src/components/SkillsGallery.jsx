@@ -9,11 +9,13 @@ import Skills from './skills.json';
 function SkillsGallery() {
     const [skills, setSkills] = useState(Skills);
     return (
+        <>
+
         <Container fluid id='skillsGrid'>
+        <h1 id='skillHeading'>Technical Skills</h1>
             <Row>
                 <Col id='skillsMid'>
                     <div id='skills' className='col-lg-8 col-10 '>
-                        <h4>My Skills</h4>
                         <div id='skillsBox'>
                             {skills.map(skills => (
                                 <SkillCard
@@ -28,6 +30,7 @@ function SkillsGallery() {
                 </Col>
             </Row>
         </Container>
+        </>
 
     )
 }

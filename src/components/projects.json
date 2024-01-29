@@ -3,7 +3,7 @@
     {
         "id": 1,
         "name": "Cybernet Detective",
-        "image": "./cybernet.gif",
+        "image": "./images/cybernet.gif",
         "description": "A Website using APIs that takes in an IP Address and gives various information about the IP to check if the IP is dangerous",
         "link": "https://github.com/josh484/Cyber-security",
         "website": "https://josh484.github.io/Cyber-security/index.html"
