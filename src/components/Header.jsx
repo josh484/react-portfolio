@@ -10,11 +10,11 @@ function Header() {
             <Container id='navbar' className=' d-flex justify-content-end'>
                 <Nav>
                     <NavLink
-                        className="nav-link"
+                        className="nav-link" 
                         style={({ isActive }) => {
                             return isActive ? { color: '#bb86fc' } : {}
                         }}
-                        to="/react-portfolio/"
+                        end to="/react-portfolio/"
                     >Home
                     </NavLink>
                     <NavLink
