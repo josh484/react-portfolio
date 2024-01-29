@@ -55,8 +55,7 @@
 #skills{
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+
     background-color: #1e1e1e;
     border-radius: 25px;
     border: 2px solid white;
@@ -66,6 +65,10 @@
 
 #listSkills{
     margin-bottom: 10px;
+}
+
+.skillItem{
+    margin: 5px
 }
 
 .buttonC{
@@ -99,11 +102,11 @@
     height: 100%;
  }
  .carousel-indicators [data-bs-target]{
-    background-color:#bb86fc !important;
+    background-color:#3700B3 !important;
  }
 
 #cCaption{
-    background-color: rgba(3, 3, 3, 0.2);
+    background-color: rgba(3, 3, 3, 0.4);
     color: white;
 
 }
