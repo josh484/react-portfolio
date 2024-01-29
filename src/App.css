@@ -4,6 +4,9 @@
     max-width: 100% ;
     min-height: 100vh;
     padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #frontRow{
@@ -50,7 +53,7 @@
     box-shadow: 5px 5px;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 #skillsGrid{
@@ -146,6 +149,9 @@
 
  #navbar{
     max-width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 /* Contact form */

@@ -3,12 +3,15 @@ import { NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Header() {
     return (
-        <Navbar bg="dark" data-bs-theme="dark" >
-            <Container id='navbar' className=' d-flex justify-content-end'>
-                <Nav>
+        <Navbar expand="lg" bg="dark" data-bs-theme="dark" fixed="top">
+            <Container  id='navbar'>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
                     <NavLink
                         className="nav-link" 
                         style={({ isActive }) => {
@@ -33,7 +36,8 @@ function Header() {
                         to="/react-portfolio/contact"
                     >Contact
                     </NavLink>
-                </Nav>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     )
