@@ -33,6 +33,14 @@ function Header() {
                         style={({ isActive }) => {
                             return isActive ? { color: '#bb86fc' } : {}
                         }}
+                        to="/react-portfolio/skillsgallery"
+                    >Skills
+                    </NavLink>
+                    <NavLink
+                        className="nav-link" 
+                        style={({ isActive }) => {
+                            return isActive ? { color: '#bb86fc' } : {}
+                        }}
                         to="/react-portfolio/contact"
                     >Contact
                     </NavLink>

@@ -57,7 +57,6 @@
 }
 
 #skillsGrid{
-    margin-top: 10vh;
     max-width: 100% ;
     min-height: 100vh;
     display: flex;
@@ -136,13 +135,13 @@
     height: 100%;
  }
  .carousel-indicators [data-bs-target]{
-    background-color:#3700B3 !important;
+    background-color:#bb86fc !important;
  }
 
 #cCaption{
-    background-color: rgba(3, 3, 3, 0.4);
+    background-color: rgba(3, 3, 3, 0.6);
     color: white;
-
+    border-radius: 25px !important;
 }
 
  /* Header Page */

@@ -9,7 +9,7 @@ import "@fontsource/poppins"; // Defaults to weight 400
 import "@fontsource/poppins/800.css"; // Specify weight
 import "@fontsource/poppins/400-italic.css"; // Specify weight and style
 import './App.css'
-
+import SkillsGallery from './components/SkillsGallery';
 function App() {
 
 
@@ -20,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/react-portfolio/" element={<Home />} />
           <Route path="/react-portfolio/projectgallery" element={<ProjectGallery />} />
+          <Route path="/react-portfolio/skillsgallery" element={<SkillsGallery />} />
           <Route path="/react-portfolio/contact" element={<Contact />} />
         </Routes>
       </Router>
