@@ -40,7 +40,7 @@ function Home() {
             <Container fluid id='skillsGrid'>
                 <Row>
                     <Col id='skillsMid'>
-                        <div id='skills' className='col-lg-12 col-12 '>
+                        <div id='skills' className='col-lg-8 col-10 '>
                             <h4>My Skills</h4>
                             <div id='skillsBox'>
                                 {skills.map(skills => (

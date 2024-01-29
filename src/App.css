@@ -60,19 +60,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-color: #23191b;
 }
 
 #skills{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: #1e1e1e;
+    background-color: #23191b;
     border-radius: 25px;
-    border: 2px solid white;
-    box-shadow: 5px 5px;
+    border: 2px solid #1c1314;
+    box-shadow: 2px 2px #1c1314;
     text-align: center;
+    margin-top: 10px;
 }
 
 #skillsMid{
@@ -95,14 +92,14 @@
 .skillItem{
     margin: 5px;
     border-radius: 25px !important;
-    border: 2px solid #bb86fc !important; 
+    border: 2px solid #ff7597 !important; 
 }
 
 .skillItem:hover{
     cursor: pointer;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
-    box-shadow: 5px 5px #bb86fc;
+    box-shadow: 5px 5px #ff7597;
 }
 
 .buttonC{
