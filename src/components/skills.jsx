@@ -7,10 +7,8 @@ function Skills(prop) {
     <Card className='col-lg-3 col-md-3 col-10 skillItem text-bg-dark'>
         <Card.Body>
             <Card.Title>{prop.skill}</Card.Title>
-            <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-            </Card.Text>
+                <a href={prop.href}><img src={prop.image} className='imgSkills'/></a>
+
         </Card.Body>
     </Card>
     )

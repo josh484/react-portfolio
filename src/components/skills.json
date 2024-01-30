@@ -3,43 +3,51 @@
     {
         "id": 1,
         "skill": "HTML",
-        "description": "something",
-        "image": "link here"
+        "description": "html 5 icons",
+        "image": "./images/Icons/html-5.png",
+        "href": "https://www.flaticon.com/free-icons/html-5"
     },
     {
         "id": 2,
         "skill": "CSS",
-        "description": "something",
-        "image": "link here"
+        "description": "css icons",
+        "image": "./images/Icons/css.png",
+        "href": "https://www.flaticon.com/free-icons/css"
     },
     {
         "id": 3,
         "skill": "JavaScript",
-        "description": "something",
-        "image": "link here"
+        "description": "javascript icons",
+        "image": "./images/Icons/js.png",
+        "href": "https://www.flaticon.com/free-icons/javascript"
     },
     {
         "id": 4,
         "skill": "BootStrap",
-        "description": "something",
-        "image": "link here"
+        "description": "bootstrap icons",
+        "image": "./images/Icons/bootstrap.png",
+        "href": "https://www.flaticon.com/free-icons/bootstrap"
     },
+
     {
         "id": 5,
         "skill": "JQuery",
-        "description": "something",
-        "image": "link here"
+        "description": "JQuery Icon by Icons8",
+        "image": "./images/Icons/jquery.png",
+        "href": "https://icons8.com/icon/40253/jquery"
     },
     {
         "id": 6,
         "skill": "Node.js",
-        "description": "something",
-        "image": "link here"
+        "description": "Node.js Icon created by Icons8",
+        "image": "./images/Icons/nodejs.png",
+        "href": "https://icons8.com/icon/ouWtcsgDBiwO/node-js"
     },
     {
         "id": 7,
         "skill": "React",
-        "description": "something",
-        "image": "link here"
+        "description": "React Icon by Icons8",
+        "image": "./images/Icons/react.png",
+        "href": "https://icons8.com/icon/Vra58PN2KmI5/react"
     }
 ]

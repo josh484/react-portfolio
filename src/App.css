@@ -22,6 +22,12 @@
     box-shadow: 5px 5px;
 }
 
+.jumboPicture img:hover{
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    box-shadow: 10px 10px #bb86fc;
+}
+
 .jumboPicture{
     margin-bottom: 10px;
     margin-top: 20px;
@@ -59,7 +65,7 @@
 #aboutMe:hover{
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
-    box-shadow: 10px 10px #ff7597;
+    box-shadow: 10px 10px #bb86fc;
 }
 
 #socialBox{
@@ -76,7 +82,7 @@
 #socialBox:hover{
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
-    box-shadow: 6px 6px #ff7597;
+    box-shadow: 6px 6px #bb86fc;
 }
 
 
@@ -136,6 +142,11 @@
 
 #skillHeading{
     margin-top: 10vh;
+}
+
+.imgSkills{
+    width:15vh;
+    height: 15vh;
 }
 
 .buttonC{
