@@ -18,14 +18,19 @@ function Home() {
                             <h1>I'm Joshua <span id='mendozaC'>Mendoza</span></h1>
                             <h2>A Front-End Web Developer</h2>
                             <a href={pdf}>
-                            <Button variant="primary" className='buttonC'>
-                                My CV
-                            </Button>
+                                <Button variant="primary" className='buttonC'>
+                                    My CV
+                                </Button>
                             </a>
                         </div>
                         <div id='socialBox'>
-                            <a href='https://www.linkedin.com/in/joshua-mendoza-7b1109225/'><img src='./images/linkedin.png' className='socials'/></a>
-                            <a href='https://github.com/josh484'><img src='./images/github.png' className='socials'/></a>
+                            <h2>Contact Me</h2>
+                            <p>Email: josh.m.mendoza1@gmail.com</p>
+                            <p>Phone Number: (+44)7484 674 822 </p>
+                            <div id='socialP'>
+                                <a href='https://www.linkedin.com/in/joshua-mendoza-7b1109225/'><img src='./images/linkedin.png' className='socials' /></a>
+                                <a href='https://github.com/josh484'><img src='./images/github.png' className='socials' /></a>
+                            </div>
                         </div>
                     </Col>
                     <Col xs={12} lg={4} id='rightMe'>
