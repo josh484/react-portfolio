@@ -8,7 +8,6 @@ A Portfolio website using everything I have learned so far through React+Vite.
 [Installation](#installation) <br />
 [Usage](#usage) <br />
 [Lisence](#lisence) <br />
-[Tests](#tests) <br />
 [Questions](#questions) 
 ## Installation
 In order to install the project simply click the green code button and download the file as a zip. Once downloaded simply right click on the file and unzip the folder.
