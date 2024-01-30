@@ -206,12 +206,19 @@
     align-items: center;
 }
 
+
 #contactColumn{
     background-color: #1e1e1e;
     border-radius: 25px;
     border: 2px solid white;
     box-shadow: 5px 5px;
     text-align: center;
+}
+
+#contactColumn:hover{
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    box-shadow: 10px 10px #bb86fc;
 }
 
 #contactRow{

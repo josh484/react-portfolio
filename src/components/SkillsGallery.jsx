@@ -24,6 +24,7 @@ function SkillsGallery() {
                                     skill={skills.skill}
                                     image={skills.image}
                                     href={skills.href}
+                                    description={skills.description}
                                 />
 
                             ))}

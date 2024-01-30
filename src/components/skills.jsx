@@ -7,7 +7,7 @@ function Skills(prop) {
     <Card className='col-lg-3 col-md-3 col-10 skillItem text-bg-dark'>
         <Card.Body>
             <Card.Title>{prop.skill}</Card.Title>
-                <a href={prop.href}><img src={prop.image} className='imgSkills'/></a>
+                <a href={prop.href}><img src={prop.image} className='imgSkills' alt={prop.description}/></a>
 
         </Card.Body>
     </Card>
