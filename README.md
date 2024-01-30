@@ -14,18 +14,16 @@ A Portfolio website using everything I have learned so far through React+Vite.
 In order to install the project simply click the green code button and download the file as a zip. Once downloaded simply right click on the file and unzip the folder.
 ## Usage
 Clicking on the website link will take you to the website, press the navigation tabls on the top of the page to switch between pages.
-
+![Front Page](./public/images/frontpage.png)
 ## Lisence
 This work is using the lisence: MIT
-## Tests
-To do the tests, simply download the file and inside the file within a terminal type ```npm test``` which will run the jest test inside the tests folders the result should be: <br />
-![Test example](./assets/images/tests.png)
 ## Features
-The application uses node.js and jests to create a html file and also run tests. 
-- Firstly the task asked me to create classes for all the files in the ```lib``` directory where each other file in that directory inherits from the ```Employee.js```. After doing so I then ran all the tests to make sure all the classes were correct as show in the test examples above.
-- Secondly, the ```index.js``` file handles all the work. Using Inquirer to prompt the user for questions about the manager and puts that into an employee array by creating a new instance of manager and then prompting the user for a choice between "adding an Engineer". "adding an Intern" or "Completing Team". 
-1. Choosing the former two accesses a function that asks similar questions to the manager but concats a unique question specifically for that type of role, creating a new instance of that role and pushing it to the employee array. 
-2. By choosing "Complete Team" it writes the file ```team.html``` to a folder called ```output``` if it doesnt exists it creates the folder first. To create the file it takes in the render variable which is a file in the directory called ```./src/page-template.js``` which outputs html code and takes in the employee array and uses that data to fill in the html file.
+The Website features 4 main pages, The Home page, Project Gallery, Skills and Contact pages.
+- Home Page is the starting screen and offers information about me and links to my socials.
+- Project Gallery is a bootstrap carousel which uses a map function to dynamically create each instance of a project within the carousel using a JSON file so that more can be added just by adding more projects to the JSON file.
+- Skills uses two jsx files the main Skills Gallery which is similar to project gallery only this time it maps over the skills javascript which creates a card using a JSON file for each skill this is so that I can easily put more skills that I will learn in the future.
+- Contact Page is a simple edited bootstrap form that on submission uses an application called getform to handle the input and send it to my email.
+- The navigation uses Router Dom in order to create a single paged application so that the page is never refreshed.
 ## Questions
 Github username: josh484 <br /> 
 [GitHub](https://www.github.com/josh484) <br />

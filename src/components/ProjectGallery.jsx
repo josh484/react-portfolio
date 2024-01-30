@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Data from './projects.json'
-import Project from './Project';
 import Carousel from 'react-bootstrap/Carousel';
 
 function ProjectGallery() {
