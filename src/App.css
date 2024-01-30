@@ -56,6 +56,24 @@
     margin-top: 40px;
 }
 
+#socialBox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 3px 3px;
+    width: 15vh;
+}
+
+.socials{
+    height: 5vh;
+    width: 5vh;
+}
+
+/* Skills Section */
 #skillsGrid{
     max-width: 100% ;
     min-height: 100vh;

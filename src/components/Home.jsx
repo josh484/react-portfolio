@@ -22,11 +22,11 @@ function Home() {
                                 My CV
                             </Button>
                             </a>
-                            <div>
-                                zz
-                            </div>
                         </div>
-
+                        <div id='socialBox'>
+                            <a href='https://www.linkedin.com/in/joshua-mendoza-7b1109225/'><img src='./images/linkedin.png' className='socials'/></a>
+                            <a href='https://github.com/josh484'><img src='./images/github.png' className='socials'/></a>
+                        </div>
                     </Col>
                     <Col xs={12} lg={4} id='rightMe'>
                         <div className="jumboPicture text-center">
